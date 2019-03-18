@@ -48,7 +48,7 @@ def factorial(n):
         >>> factorial(9)
         362880
     '''
-    if n == 1:
+    if n <= 1:
         return n
     else:
         return n * factorial(n-1) #Number multiplied to previous number.
